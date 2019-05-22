@@ -103,7 +103,7 @@ ui <- fluidPage(
                           label = "Code",
                           icon = icon("github"),
                           width = "80px",
-                          onclick ="window.open(`https://github.com/jasonbaik94/nhl-pbp`, '_blank')",
+                          onclick ="window.open(`https://github.com/howardbaik/nhl-pbp`, '_blank')",
                           style="color: #fff; background-color: #767676; border-color: #767676"),
              data.step = 6,
              data.intro = "View Code"),
