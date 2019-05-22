@@ -216,7 +216,7 @@ server <- function(input, output, session) {
   pbp <- reactive({
     
     if(input$season == 1718) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20172018_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20172018_processed.csv")
       
     } else if (input$season == 1819) {
       gs_auth(token = "previous_token.rds")
@@ -224,34 +224,34 @@ server <- function(input, output, session) {
       result_processed %>% gs_read_csv()
       
     } else if (input$season == 0708) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20072008_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20072008_processed.csv")
       
     } else if (input$season == 0809) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20082009_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20082009_processed.csv")
       
     } else if (input$season == 0910) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20092010_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20092010_processed.csv")
       
     } else if (input$season == 1011) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20102011_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20102011_processed.csv")
       
     } else if (input$season == 1112) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20112012_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20112012_processed.csv")
       
     } else if (input$season == 1213) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20122013_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20122013_processed.csv")
       
     } else if (input$season == 1314) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20132014_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20132014_processed.csv")
       
     } else if (input$season == 1415) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20142015_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20142015_processed.csv")
       
     } else if (input$season == 1516) {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20152016_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20152016_processed.csv")
       
     } else {
-      read_csv("https://raw.githubusercontent.com/jasonbaik94/nhl-pbp-processed-data/master/pbp_20162017_processed.csv")
+      read_csv("https://raw.githubusercontent.com/howardbaik/nhl-processed-data/master/pbp_20162017_processed.csv")
     }
   })
   
