@@ -23,5 +23,5 @@ Interactively visualize & animate shot data for all games in the 2017-2018 NHL s
 
 - This app received a Honorable Mention from [RStudio's 1st Shiny Contest](https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/?utm_content=buffere0bd9&utm_medium=social&utm_source=twitter&utm_campaign=buffer)
 
-Contact Info: joonwoob@andrew.cmu.edu
+Contact Info: howardhowiebaek@gmail.com
 
